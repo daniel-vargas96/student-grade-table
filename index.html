@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <title>Student Grade Table</title>
@@ -11,20 +12,23 @@
   <div class="container">
     <header class="row">
       <h1 class="col-9">Student Grade Table</h1>
-      <h4 class="col-3">Average Grade <span class = "badge badge-secondary"></span></h4>
+      <h4 class="col-3">Average Grade <span class="badge badge-secondary"></span></h4>
     </header>
   </div>
-  <table class="table table-bordered">
-    <thead class="thead">
-      <tr class="trow">
-        <th>Student Name</th>
-        <th>Course</th>
-        <th>Grade</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+  <div class="row">
+    <table class="table table-bordered col-6">
+      <thead class="thead">
+        <tr class="trow">
+          <th>Student Name</th>
+          <th>Course</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
   <script src="components/app.js"></script>
   <script src="components/grade-table.js"></script>
