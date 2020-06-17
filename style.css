@@ -1,0 +1,8 @@
+.thead {
+  background-color: lightgray;
+}
+
+.table-bordered {
+  border: 3px solid black;
+}
+
