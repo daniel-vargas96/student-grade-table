@@ -10,5 +10,11 @@ class GradeForm {
   handleSubmit(event) {
     event.preventDefault();
     console.log('working');
+    var formData = new FormData(event.target)
+    var newName = formData.get("name");
+    var newCourse = formData.get("course");
+    var newGrade = formData.get("grade");
+    this.createGrade(newName, newCourse, newGrade);
+    event.target.reset();
   }
 }
