@@ -17,3 +17,34 @@ header {
   align-items: center;
   margin-bottom: .5rem;
 }
+
+/* DEVICE SIZES */
+@media only screen and (max-width: 768px) {
+  body {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  .form-control {
+    font-size: x-large;
+  }
+
+  .btn {
+    font-size: large;
+  }
+
+  .btn-success, .btn-outline-secondary {
+    font-size: xx-large;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-size: 2rem;
+  }
+
+}
