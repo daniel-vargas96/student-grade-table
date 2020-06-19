@@ -18,8 +18,8 @@ class App {
   }
   handleGetGradesSuccess(grades) {
     this.gradeTable.updateGrades(grades);
-    var sum = 0;
-    for(var i = 0; i < grades.length; i++) {
+    let sum = 0;
+    for(let i = 0; i < grades.length; i++) {
       sum += grades[i].grade;
       var average = Math.floor(sum / grades.length);
     }
@@ -41,7 +41,6 @@ class App {
     this.gradeTable.onDeleteClick(this.deleteGrade);
   }
   createGrade(name, course, grade) {
-    console.log(name, course, grade);
     $.ajax({
       method: "POST",
       url: "https://sgt.lfzprototypes.com/api/grades",
@@ -62,7 +61,6 @@ class App {
     this.getGrades();
   }
   deleteGrade(id) {
-    console.log(id);
     $.ajax({
       method: "DELETE",
       url: "https://sgt.lfzprototypes.com/api/grades/" + id,
