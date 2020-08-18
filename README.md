@@ -1,9 +1,15 @@
 # Student Grade Table
 An interactive JavaScript application that communicates with a server to manage grade records.
 
-# Live Demo
+## Live Demo
 <a href="https://daniel-vargas96.github.io/student-grade-table/" target="_blank">Student Grade Table</a>
 <img src="SGT.PNG"></img>
+
+## Technologies Used:
+* Vanilla JS
+* HTML5
+* CSS3 
+* Bootstrap 4
 
 ## Current Feature List:
 * User can view all student grades
