@@ -7,6 +7,7 @@ An interactive JavaScript application that communicates with a server to manage 
 
 ## Technologies Used:
 * Vanilla JS
+* AJAX
 * HTML5
 * CSS3 
 * Bootstrap 4
